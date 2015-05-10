@@ -8,3 +8,4 @@ class IndexView(generic.ListView):
         context = super(IndexView, self).get_context_data(**kwargs)
         context['interfaces'] = Interface.objects.all()
         return context
+#
